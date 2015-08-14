@@ -1,4 +1,4 @@
-### This branch is the [nw.js](https://github.com/nwjs/nw.js/) version of the [frontend-boilerplate](https://github.com/vhpoet/frontend-boilerplate)
+### [nw.js](https://github.com/nwjs/nw.js/) version of the [frontend-boilerplate](https://github.com/vhpoet/frontend-boilerplate)
 
 No fancy generators, just clone this repo and build your app on top of it.
 
