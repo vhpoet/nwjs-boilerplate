@@ -10,8 +10,7 @@ No fancy generators, just clone this repo and build your app on top of it.
 ### Setup
 
 - Setup [nw.js](https://github.com/nwjs/nw.js/).
-- `$ git clone https://github.com/vhpoet/frontend-boilerplate`
-- `$ git fetch --all; git checkout nodewebkit`
+- `$ git clone https://github.com/vhpoet/nwjs-boilerplate`
 - Find and replace `frontendboilerplate` to `yourappname` in `./`
 - `$ npm install`
 - `$ npm install -g bower gulp`
