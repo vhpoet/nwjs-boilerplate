@@ -23,8 +23,9 @@ gulp.task('webpack:vendor', function() {
   return gulp.src('app/scripts/vendor.js')
     .pipe(webpack({
       output: {
-        filename: "vendor.js"
-      }
+        filename: 'vendor.js'
+      },
+      target: 'node-webkit'
     }))
     .pipe(gulp.dest(TMP_DIR + 'scripts/'))
 });
@@ -34,12 +35,13 @@ gulp.task('webpack', function() {
     .pipe(webpack({
       module: {
         loaders: [
-          { test: /\.json$/, loader: "json-loader" }
+          { test: /\.json$/, loader: 'json-loader' }
         ]
       },
       output: {
-        filename: "app.js"
-      }
+        filename: 'app.js'
+      },
+      target: 'node-webkit'
     }))
     .pipe(gulp.dest(TMP_DIR + 'scripts/'))
     .pipe($.browserSync.reload({stream:true}));
