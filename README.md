@@ -4,7 +4,7 @@ No fancy generators, just clone this repo and build your app on top of it.
 
 ### Package
 
-- Uses nw.js, AngularJS, Bower, Gulp, Jade, Sass (with sourcemaps), browserSync. 
+- Uses nw.js, AngularJS, Gulp, Jade, Sass (with sourcemaps), browserSync. 
 - Respects [angularjs-styleguide](https://github.com/johnpapa/angularjs-styleguide).
 
 ### Setup
@@ -13,7 +13,7 @@ No fancy generators, just clone this repo and build your app on top of it.
 - `$ git clone https://github.com/vhpoet/nwjs-boilerplate`
 - Find and replace `frontendboilerplate` to `yourappname` in `./`
 - `$ npm install`
-- `$ npm install -g bower gulp`
+- `$ npm install -g gulp`
 - `$ gem install sass`
 - `$ cp config-example.json config.json`
 - `$ gulp`
