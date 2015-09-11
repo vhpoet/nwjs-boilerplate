@@ -4,7 +4,7 @@ var gulp = require('gulp'),
   jade = require('jade'),
   modRewrite = require('connect-modrewrite'),
   webpack = require('webpack-stream'),
-  NwBuilder = require('nw-builder'),
+  NwBuilder = require('nw-builder'),c
   merge = require('merge-stream');
 
 var $ = require('gulp-load-plugins')({
@@ -233,7 +233,8 @@ gulp.task('build', ['dist'], function() {
     //appVersion: meta.version,
     buildDir: PACKAGES_DIR,
     macZip: true,
-    cacheDir: TMP_DIR
+    cacheDir: TMP_DIR,
+    version: '0.12.3'
     // TODO: timestamped versions
     // TODO: macIcns
     // TODO: winIco
