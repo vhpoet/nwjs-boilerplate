@@ -4,7 +4,7 @@ var gulp = require('gulp'),
   jade = require('jade'),
   modRewrite = require('connect-modrewrite'),
   webpack = require('webpack-stream'),
-  NwBuilder = require('nw-builder'),c
+  NwBuilder = require('nw-builder'),
   merge = require('merge-stream');
 
 var $ = require('gulp-load-plugins')({
